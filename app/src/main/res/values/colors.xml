@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF3D00</color>
+    <color name="colorPrimaryDark">#DD2C00</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="Drink">#A91068CE</color>
+    <color name="Snacks">#EFF4EA26</color>
+    <color name="Swallow">#EF8F1124</color>
+    <color name="Rice">#EF67EC2A</color>
+    <color name="Cake">#EFE61CD5</color>
+    <color name="Event">#ef103af5</color>
+    <color name="Dj">#FF4081</color>
+    <color name="Wedding_Gown">#ffffff</color>
+    <color name="rent_Car">#FF10F109</color>
+    <color name="EventPlanner">#FFF19C09</color>
+    <color name="Test">#ffffff</color>
+    <color name="Button_background">#FF3D00</color>
+    <color name="TextColor">#ffffff</color>
+</resources>

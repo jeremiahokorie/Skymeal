@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.crash.etranzact.contactmanager.DisplaySnacks">
+
+    <ImageView
+        android:id="@+id/imagesP"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/chocolatecake" />
+
+    <TextView
+        android:id="@+id/namesP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="Name"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descriptionP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="12dp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/prices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Price"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/pricesP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Price"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity of your order"
+        android:textSize="10dp" />
+
+    <Spinner
+        android:id="@+id/quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:dropDownWidth="match_parent"
+        android:visibility="visible">
+
+        
+    </Spinner>
+
+    <!--<TextView-->
+        <!--android:id="@+id/price"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="0"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/TotalOrder"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:onClick="TotalOrder"-->
+        <!--android:text="order"/>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/buttonExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/curve"
+            android:onClick="exitButton"
+            android:text="Back"
+            android:textAllCaps="false"
+            android:textColor="@color/TextColor" />
+
+
+        <Button
+            android:id="@+id/cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/curve"
+            android:onClick="ButtonAddToCart"
+            android:text="Add to cart"
+            android:textAllCaps="false"
+            android:textColor="@color/TextColor" />
+
+        <Button
+            android:id="@+id/checkout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/curve"
+            android:onClick="ButtonMakePayment"
+            android:text="View Item"
+            android:textAllCaps="false"
+            android:textColor="@color/TextColor" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/ic_action_contact"
+            android:title="Contact" />
+        <item
+            android:id="@+id/Last_order"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Last order" />
+        <item
+            android:id="@+id/Track_Location"
+            android:icon="@drawable/ic_action_map"
+            android:title="Track Location" />
+        <item
+            android:id="@+id/Setting"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/Sign_Up"
+            android:icon="@drawable/ic_action_signup"
+            android:title="Sign Up" />
+
+
+        <item
+            android:id="@+id/Login"
+            android:icon="@drawable/ic_action_signup"
+            android:title="Login" />
+
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/ic_action_signup"
+            android:title="Home" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share your event" />
+            <item
+                android:id="@+id/Buy"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Buy for me" />
+        </menu>
+    </item>
+
+</menu>
